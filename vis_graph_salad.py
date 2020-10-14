@@ -339,4 +339,4 @@ def generate_stylesheet(data_edge, data_node_hover, data_node_tap):
     return stylesheet
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8090)
+    app.run_server(debug=True, host='0.0.0.0')
